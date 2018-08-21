@@ -106,20 +106,6 @@
   revision = "91ca5ec5e9a1bc2668b1ccbe0967e04a349e3561"
 
 [[projects]]
-  digest = "1:5ba31819052d03be24474a07eb636a7665807d9708f222eb416a26dc36624542"
-  name = "github.com/odeke-em/drive"
-  packages = [
-    "config",
-    "gen",
-    "src",
-    "src/dcrypto",
-    "src/dcrypto/v1",
-  ]
-  pruneopts = "UT"
-  revision = "a9f53bc4cc9d9d2eada836602ad4b4a7902424a6"
-  version = "v0.3.9"
-
-[[projects]]
   branch = "master"
   digest = "1:d71883c414da2a03c621e60182fe20f4b6aa9e9013164c47fb0142fc7039b90a"
   name = "github.com/odeke-em/exponential-backoff"
@@ -368,11 +354,6 @@
     "github.com/odeke-em/cache",
     "github.com/odeke-em/cli-spinner",
     "github.com/odeke-em/command",
-    "github.com/odeke-em/drive/config",
-    "github.com/odeke-em/drive/gen",
-    "github.com/odeke-em/drive/src",
-    "github.com/odeke-em/drive/src/dcrypto",
-    "github.com/odeke-em/drive/src/dcrypto/v1",
     "github.com/odeke-em/exponential-backoff",
     "github.com/odeke-em/extractor",
     "github.com/odeke-em/go-utils/pkger/src",
